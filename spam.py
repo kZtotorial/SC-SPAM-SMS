@@ -32,11 +32,11 @@ def menu():
       while True:
            print("")
            try:
-                x = str(input('\033[1;34mUsername \033[1;93m: '))
+                x = str(input('\033[1;34mUsername (21) \033[1;93m: '))
                 print("")
-                e = getpass('\033[1;36mPassword \033[1;93m: ')
+                e = getpass('\033[1;36mPassword (21) \033[1;93m: ')
                 print ("")
-                if x=="SUBSCRIBE" and e=="2022":
+                if x=="21" and e=="21":
                    print('Tunggu Sebentar...')
                    time.sleep(2)
                    os.system('clear')
